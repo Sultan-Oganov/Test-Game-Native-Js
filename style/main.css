@@ -1,0 +1,313 @@
+/* @import url(https://allfont.ru/allfont.css?fonts=a_stamper-bold); */
+
+@font-face {
+    font-family: "AStamperBold";
+    src: url("../fonts/A_Stamper_Bold.TTF") format("ttf");
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #047266;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 980px;
+    height: 630px;
+    margin: auto;
+    position: relative;
+    background: url("../images/undeground.png") center / contain no-repeat;
+}
+.road {
+    width: 90%;
+    height: 84%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-46%, -55%);
+}
+.tree {
+    position: absolute;
+    top: 78%;
+    left: 36%;
+}
+.text {
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "AStamperBold";
+    -moz-transform: matrix(0.72699027316319, -0.4229733726024, 1.21570020235108, 0.66822240031415, 0, 0);
+    -webkit-transform: matrix(0.72699027316319, -0.4229733726024, 1.21570020235108, 0.66822240031415, 0, 0);
+    -ms-transform: matrix(0.72699027316319, -0.4229733726024, 1.21570020235108, 0.66822240031415, 0, 0);
+}
+.text__start {
+    color: rgb(198, 8, 2);
+    top: 82%;
+    left: 43%;
+}
+.text__finish {
+    color: rgb(3, 97, 145);
+    top: 29%;
+    left: 87.5%;
+}
+.point {
+    position: absolute;
+    box-sizing: content-box;
+    width: 30px;
+    height: 20px;
+    background: url("../images/normal-point.png ") center / contain no-repeat;
+}
+.p1 {
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 78%;
+    left: 43%;
+    background: url("../images/start.png") center / contain no-repeat;
+}
+.black-point {
+    background: url("../images/black-point.png") center / contain no-repeat;
+}
+.end-point {
+    background: url("../images/red-point.png") center / contain no-repeat;
+}
+.finish {
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 26%;
+    left: 87.5%;
+    background: url("../images/finish.png") center / contain no-repeat;
+}
+.p2 {
+    top: 73.5%;
+    left: 37%;
+}
+.p3 {
+    top: 79%;
+    left: 30.5%;
+}
+.p4 {
+    top: 85%;
+    left: 22%;
+}
+.p5 {
+    top: 81%;
+    left: 11%;
+}
+.p6 {
+    top: 70%;
+    left: 11.5%;
+}
+.p7 {
+    top: 62%;
+    left: 13%;
+}
+.p8 {
+    top: 55%;
+    left: 21%;
+}
+.p9 {
+    top: 45%;
+    left: 18%;
+}
+.p10 {
+    top: 36.5%;
+    left: 12.5%;
+}
+.p11 {
+    top: 30.5%;
+    left: 20%;
+}
+.p12 {
+    top: 38%;
+    left: 24.9%;
+}
+.p13 {
+    top: 33%;
+    left: 29%;
+}
+.p14 {
+    top: 24%;
+    left: 32%;
+}
+.p15 {
+    top: 17%;
+    left: 37%;
+}
+.p16 {
+    top: 5%;
+    left: 41.5%;
+}
+.p17 {
+    top: 10%;
+    left: 50%;
+}
+.p18 {
+    top: 23%;
+    left: 45.5%;
+}
+.p19 {
+    top: 35%;
+    left: 48.5%;
+}
+.p20 {
+    top: 48%;
+    left: 45.5%;
+}
+.p21 {
+    top: 54%;
+    left: 39%;
+}
+.p22 {
+    top: 65%;
+    left: 37%;
+}
+.p23 {
+    top: 67.5%;
+    left: 45%;
+}
+.p24 {
+    top: 74.5%;
+    left: 52.5%;
+}
+.p25 {
+    top: 79%;
+    left: 61.5%;
+}
+.p26 {
+    top: 82%;
+    left: 71.5%;
+}
+.p27 {
+    top: 74%;
+    left: 81%;
+}
+.p28 {
+    top: 67%;
+    left: 87.5%;
+}
+.p29 {
+    top: 61%;
+    left: 94%;
+}
+.p30 {
+    top: 49%;
+    left: 95.5%;
+}
+.p31 {
+    top: 45%;
+    left: 90%;
+}
+.p32 {
+    top: 51%;
+    left: 84%;
+}
+.p33 {
+    top: 56.5%;
+    left: 78%;
+}
+.p34 {
+    top: 55.5%;
+    left: 72%;
+}
+.p35 {
+    top: 47%;
+    left: 72%;
+}
+.p36 {
+    top: 40.5%;
+    left: 70%;
+}
+.p37 {
+    top: 30%;
+    left: 71%;
+}
+.p38 {
+    top: 27%;
+    left: 67%;
+}
+.p39 {
+    top: 34.5%;
+    left: 61.5%;
+}
+.p40 {
+    top: 45%;
+    left: 57.5%;
+}
+.p41 {
+    top: 47.5%;
+    left: 54.5%;
+}
+.p42 {
+    top: 45%;
+    left: 51%;
+}
+.p43 {
+    top: 33%;
+    left: 50.6%;
+}
+.p44 {
+    top: 26.5%;
+    left: 52.7%;
+}
+.p45 {
+    top: 21.5%;
+    left: 55.5%;
+}
+.p46 {
+    top: 12.5%;
+    left: 57.5%;
+}
+.p47 {
+    top: 3.5%;
+    left: 61.5%;
+}
+.p48 {
+    top: 8.5%;
+    left: 63.5%;
+}
+.p49 {
+    top: 20.5%;
+    left: 62.5%;
+}
+.p50 {
+    top: 12.5%;
+    left: 67.5%;
+}
+.p51 {
+    top: 21%;
+    left: 72.5%;
+}
+.p52 {
+    top: 16%;
+    left: 76.5%;
+}
+.down-block {
+    display: flex;
+    width: 980px;
+    margin: auto;
+}
+.down-block__slider {
+}
+.slider {
+    display: flex;
+    justify-content: space-between;
+}
+.slider__row {
+    display: flex;
+}
+.slider__item {
+}
+.down-block__chat {
+}
+.down-block__university {
+}
+.down-block__message {
+}
+.down-block__rating {
+}
